@@ -382,7 +382,7 @@ const css = `
     position: fixed; inset: 0; z-index: 9999;
     border-radius: 0; min-height: 100vh;
   }
-  .graph-canvas-root canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .graph-canvas-root canvas { position: absolute; width: 100%; height: 100%; }
   .graph-toolbar {
     pointer-events: all; display: flex; align-items: center; gap: 8px;
     padding: 12px 16px; background: rgba(13,13,20,0.92);
